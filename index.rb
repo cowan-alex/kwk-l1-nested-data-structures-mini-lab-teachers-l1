@@ -7,7 +7,11 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order)
-  sandwich_request["sourdough", "turkey", "swiss", "mustard"]
+  if ingredients == order
+    return true 
+  else
+    return false 
+  end
   
 end
 
