@@ -12,8 +12,9 @@ def sandwich_request(ingredients, order)
   else
     return false 
   end
-  
 end
+
+sandwich_request(ingredients, order)
 
 # example city_info hash
 cities = {
